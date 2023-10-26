@@ -19,16 +19,21 @@
     "e2e": "playwright test"
   },
   "dependencies": {
-    "electron-updater": "^6.1.1"
+    "better-sqlite3": "^8.7.0",
+    "electron-updater": "^6.1.1",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.3.17"
   },
   "devDependencies": {
     "@playwright/test": "^1.37.1",
+    "@types/node": "^20.8.9",
     "@types/react": "^18.2.20",
     "@types/react-dom": "^18.2.7",
     "@vitejs/plugin-react": "^4.0.4",
     "autoprefixer": "^10.4.16",
     "electron": "^26.0.0",
     "electron-builder": "^24.6.3",
+    "electron-rebuild": "^3.2.9",
     "postcss": "^8.4.31",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
